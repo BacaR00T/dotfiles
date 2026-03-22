@@ -39,3 +39,4 @@ home/
   .config/fish/config.fish
   .local/bin/browser
 ```
+![literally me vibe coding this repo](lain.png)
