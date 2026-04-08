@@ -12,7 +12,7 @@ My dotfiles managed with GNU Stow.
 ## clone
 
 ```bash
-git clone https://github.com/BacaR00T/i3wm-config- ~/dotfiles/i3wm-config-
+git clone https://github.com/BacaR00T/dotfiles
 cd ~/dotfiles/i3wm-config-
 yay -S alacritty dmenu input-remapper polkit-gnome brave-bin thunar feh picom fish stow
 
