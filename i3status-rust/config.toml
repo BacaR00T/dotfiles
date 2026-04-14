@@ -1,0 +1,60 @@
+icons_format = "{icon}"
+
+[theme]
+theme = "plain"
+
+[[block]]
+block = "sound"
+driver = "auto"
+format = " VOL $volume.eng(w:2) "
+show_volume_when_muted = true
+
+[[block]]
+block = "cpu"
+interval = 2
+format = " CPU $utilization.eng(w:2) "
+
+[[block]]
+block = "memory"
+interval = 5
+format = " RAM $mem_used_percents.eng(w:2) "
+
+[[block]]
+block = "disk_space"
+path = "/"
+info_type = "used"
+interval = 20
+format = " ROOT $percentage.eng(w:2) "
+
+[[block]]
+block = "net"
+interval = 2
+format = " NET $device $ip "
+inactive_format = " NET down "
+missing_format = ""
+
+[[block]]
+block = "backlight"
+format = " BRI $brightness.eng(w:2) "
+missing_format = ""
+
+[[block]]
+block = "battery"
+device = "BAT0"
+format = " BAT0 $percentage "
+full_format = " BAT0 $percentage "
+charging_format = " BAT0 $percentage "
+missing_format = ""
+
+[[block]]
+block = "battery"
+device = "BAT1"
+format = " BAT1 $percentage "
+full_format = " BAT1 $percentage "
+charging_format = " BAT1 $percentage "
+missing_format = ""
+
+[[block]]
+block = "time"
+interval = 60
+format = " $timestamp.datetime(f:'%Y-%m-%d %H:%M') "
