@@ -1,6 +1,21 @@
 [font]
-normal = { family = "monospace" }
-size = 10
+size = 9
+
+[font.normal]
+family = "DejaVu Sans Mono"
+style = "Bold"
+
+[font.bold]
+family = "DejaVu Sans Mono"
+style = "Bold"
+
+[font.italic]
+family = "DejaVu Sans Mono"
+style = "Oblique"
+
+[font.bold_italic]
+family = "DejaVu Sans Mono"
+style = "Bold Oblique"
 
 [window]
 padding = { x = 6, y = 6 }
@@ -12,21 +27,21 @@ background = "#000000"
 foreground = "#c5c8c6"
 
 [colors.normal]
-black   = "#1d1f21"
-red     = "#cc6666"
-green   = "#b5bd68"
-yellow  = "#f0c674"
-blue    = "#81a2be"
+black = "#1d1f21"
+red = "#cc6666"
+green = "#b5bd68"
+yellow = "#f0c674"
+blue = "#81a2be"
 magenta = "#b294bb"
-cyan    = "#8abeb7"
-white   = "#c5c8c6"
+cyan = "#8abeb7"
+white = "#c5c8c6"
 
 [colors.bright]
-black   = "#000000"
-red     = "#ff0008"
-green   = "#91ff00"
-yellow  = "#ffd900"
-blue    = "#0073ff"
+black = "#000000"
+red = "#ff0008"
+green = "#91ff00"
+yellow = "#ffd900"
+blue = "#0073ff"
 magenta = "#bd30ff"
-cyan    = "#00ffd0"
-white   = "#ffffff"
+cyan = "#00ffd0"
+white = "#ffffff"
