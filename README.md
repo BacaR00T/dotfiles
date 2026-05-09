@@ -1,6 +1,5 @@
 # dotfiles
 
-## clone
 
 ```bash
 git clone https://github.com/BacaR00T/dotfiles
