@@ -1,14 +1,5 @@
 # dotfiles
 
-My dotfiles managed with GNU Stow.
-
-## packages
-
-- i3
-- alacritty
-- fish
-- extras
-
 ## clone
 
 ```bash
